@@ -4,7 +4,7 @@ from tracker import *
 
 model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 
-cap=cv2.VideoCapture(1)
+cap=cv2.VideoCapture(0)
 
 cv2.namedWindow('FRAME')
 
