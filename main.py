@@ -28,7 +28,7 @@ while True:
     print("Kişi Sayisi: ", len(kisi_sayisi))  
     cv2.putText(frame, "Kisi Sayisi: " + str(len(kisi_sayisi)), (20,60), cv2.FONT_HERSHEY_PLAIN, 3, (0,0,255), 3)
     cv2.imshow('Mikrodenetleyiciler',frame)
-    if cv2.waitKey(1)&0xFF==27:
+    if cv2.waitKey(1) & 0xFF==27:
         break
 
 cap.release()
